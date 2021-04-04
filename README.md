@@ -25,24 +25,32 @@ Return the final string Ralph typed
 
 Example 1
 
-input1: aa/n\n
+input1: aa
+
 input2: wabstidwasbajsud
+
 input3: 1
+
 Output: aaab
 
 Explanation:
 
 First Ralph typed aa as the initial string, then as the operation was w, he typed the characters which appeared in the operation string, until he was given the next operation So he typed aaabsb
+
 Next, he had to delete 1 character, so he deleted b' to get aaabs
-For the next operation again he had to type characters and so he wrote
-aaabsasbajs.
+
+For the next operation again he had to type characters and so he wrote aaabsasbajs.
+
 Next, he had to perform undo, which meant he got aaabs and finally he deleted 1 character to get aaab.
 
 Example 2:
 
 input1: bbhtg
+
 input2: wbsydwtreaxcbuwsasxasd
+
 inputs: 3
+
 Output: bbhfgsas
 
 Explanation:
