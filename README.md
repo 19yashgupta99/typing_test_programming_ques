@@ -25,7 +25,7 @@ Return the final string Ralph typed
 
 Example 1
 
-input1: aa
+input1: aa/n\n
 input2: wabstidwasbajsud
 input3: 1
 Output: aaab
